@@ -11,7 +11,7 @@ When Docker is installed, published ports bypass UFW by default. This guide show
 Before proceeding, ensure a clean state:
 
 1. Verify Docker iptables is enabled (remove `--iptables=false` if present)
-2. Reset UFW FORWARD rule to DROP (default)
+2. Reset docker related UFW FORWARD rule to DROP (default)
 3. Remove old Docker rules from `/etc/ufw/after.rules`
 4. Restart Docker if configuration was changed
 
