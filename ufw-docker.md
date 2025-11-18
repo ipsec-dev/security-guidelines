@@ -20,7 +20,7 @@ Before proceeding, ensure a clean state:
 Edit `/etc/ufw/after.rules` (and `/etc/ufw/after6.rules` for IPv6):
 
 ```bash
-sudo nano /etc/ufw/after.rules
+sudo vim /etc/ufw/after.rules
 ```
 
 Append the following at the end of the file:
